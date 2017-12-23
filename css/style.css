@@ -27,19 +27,25 @@ body {
 }*/
 .head-spisok {
 	display: inline-block;
-	padding-left: 533px;
+	padding-left: 530px;
 	text-align: right;
 	
 	
+	
+}
+a {
+	text-decoration: none;
 }
 
-li {
+
+.head-spisok li {
 	display: inline-block;
 	font-size: 18px;
 
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	margin-left: 42px;
+
 	/*text-align: center;*/		
 }
 
@@ -86,6 +92,7 @@ h1 {
 .right-col img{
 	max-width: 380px;
 	height: 490px;
+
 }
 .three-tochki {
 	
@@ -141,16 +148,17 @@ h1 {
 	margin: 0 auto;
 }
 .list-img-dawn img {
-	max-width: 330px;
+	max-width: 33%;
 	height: 100%;
 }
-.list-img-dawn img:nth-child(2n){
+.list-img-dawn a:nth-child(2n){
 	margin: 0 33px;
  }
 .list-img img:hover {
-	opacity: 0; 
+	opacity: 0.1;
 		
 }
+
 
 
 .produtman-news{
@@ -209,7 +217,7 @@ input {
 
 .subscribe {
 	
-	
+	display: inline-block;
 	background-color: #e10011;
 	height: 70px;
 	width: 210px;
@@ -223,12 +231,13 @@ input {
 
 	position: absolute;
 }
-.subscribe p {
-	margin: 25px 0;
+.subscribe a {
+	display: block;
+	padding:  25px 0;
+	color: white;
+
 }
-.subscribe:hover {
-	cursor: pointer;
-}
+
 .social {
 	width: 380px;
 	margin: 0 auto;
